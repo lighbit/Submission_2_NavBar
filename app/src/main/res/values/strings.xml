@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Submission2_zulkarnaen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_movie">Movies</string>
+    <string name="title_tv_show">Tv Shows</string>
+    <string name="move_with_data">move with data</string>
+    <string name="this_is_moveactivity">move Activity</string>
+    <string name="data_received">data Received</string>
+    <string name="move_with_object">Move With Object</string>
+    <string name="object_received">Object Received</string>
+    <string name="name_heroes">name movies</string>
+    <string name="lorem">Description</string>
+    <string name="todo_photo_movie">TODO: PHOTO MOVIE</string>
+    <string name="genre">Genre:</string>
+    <string name="action">action</string>
+    <string name="tahun">Tahun:</string>
+    <string name="tahun_2">Tahun</string>
+    <string name="todo_photo">TODO Photo</string>
+    <string name="tahun_pembuatan">Tahun Pembuatan</string>
+    <string name="genres">Genre</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="detail">Detail</string>
+    <string name="change_language_settings">Change Language Settings</string>
+
+
+    <string-array name="data_name">
+        <item>127 Hours</item>
+        <item>Alita Batlle Angel</item>
+        <item>Batman Dark Knight</item>
+        <item>Brithburn</item>
+        <item>Founder MC Donald</item>
+        <item>Iam Hero</item>
+        <item>Insidious</item>
+        <item>Survival Family</item>
+        <item>US</item>
+        <item>Detective Pikachu</item>
+    </string-array>
+
+    <string-array name="data_genre">
+        <item>Adventure, Biography, Drama</item>
+        <item>Action, Adventure, Sci-Fi, Thriller</item>
+        <item>Action, Thriller</item>
+        <item>Horror, Sci-Fi</item>
+        <item>Biography, Drama, History</item>
+        <item>Action, Horror</item>
+        <item>Horror, Mystery, Thriller</item>
+        <item>Adventure, Comedy, Family</item>
+        <item>Horror, Mystery, Thriller</item>
+        <item>Action, Adventure, Comedy</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>127 Hours adalah kisah nyata dari perjuangan seorang pendaki gunung bernama Aron Ralston</item>
+        <item>Battle Angel menceritakan Alita, robot yang dilahirkan kembali berkat kemampuan Dr. Ido.</item>
+        <item>8 tahun setelah kejadian dalam The Dark Knight, Bruce Wayne (Christian Bale).</item>
+        <item>Di kota kecil bernama Brightburn, sepasang suami istri menginginkan anugerah buah hati yang tidak kunjung didapat.</item>
+        <item>Menceritakan kisah nyata tentang bagaimana Ray Kroc (Michael Keaton).</item>
+        <item>Hideo Suzuki seorang assisten mangaka, ia pernah menjadi assisten mangaka dengan bayaran yang kecil. </item>
+        <item>Elise Reinier (Lin Shaye) mendapat telepon dari seseorang yang mengaku mendapatkan gangguan mahluk halus di rumahnya.</item>
+        <item>Suatu ketika Pemadaman listrik di seluruh dunia terjadi.</item>
+        <item>Menceritakan satu keluarga yang tengah berlibur ke pantai dan menginap di rumah masa kecil sang istri, Adelaide Wilson.</item>
+        <item>Pokemon detective pikachu menceritakan Hilangnya detektif terkenal, Harry Goodman yang menghilang secara misterius setelah mengalami kecelakaan pada mobil yang ia tumpangi.</item>    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/hours_satu_dua_tujuh</item>
+        <item>@drawable/alita</item>
+        <item>@drawable/batman</item>
+        <item>@drawable/birthburn</item>
+        <item>@drawable/founder</item>
+        <item>@drawable/iam</item>
+        <item>@drawable/insidious</item>
+        <item>@drawable/survivalfamily</item>
+        <item>@drawable/us</item>
+        <item>@drawable/pikachu</item>
+    </array>
+
+    <string-array name="data_sinopsis">
+        <item>127 Hours adalah kisah nyata yang diangkat dari perjuangan seorang pendaki gunung bernama Aron Ralston yang sempat terjebak dalam sebuah celah di Grand Canyon selama 127 jam atau sekitar 5 hari. Saat menjelajahi Grand Canyon sendirian, Aron tanpa sengaja terjebak dengan posisi yang sungguh tak nyaman. Tangan kanannya terjepit batu besar yang membuatnya tak bisa melepaskan diri. Selama 127 jam itu Aron terus bertahan hidup dalam keterhimpitan dan kesendirian yang membuatnya betul-betul terisolasi dari dunia luar. Aron bergelut sendirian mencari jalan keluar, mencari cara untuk membebaskan dirinya dari himpitan batu besar tersebut. Selama 127 jam itu, Aron masih menyempatkan diri untuk membuat rekaman berbekal handycam yang dimilikinya. Beragam hal dia rekam, tentang tangannya yang terjepit, tentang keadaannya, testimoni tentang orang-orang yang dikenalnya serta permintaan maaf kepada orang-orang yang dicintainya. Satu-satu perjalanan hidupnya, kesalahan-kesalahannya dan orang-orang yang dicintainya berkelebat dalam ingatannya. Selama 127 jam Aron bertahan untuk tetap hidup dengan jatah air minum yang makin lama makin menipis. Aron juga bertahan untuk tetap waras, dan yang paling penting bertahan dengan semangat untuk tetap hidup dan berjuang agar lepas dari perangkap tersebut..</item>
+        <item>Battle Angel menceritakan Alita, robot yang dilahirkan kembali berkat kemampuan Dr. Ido, seorang dokter yang menyadari potensi Alita. Tinggal di Iron City, Ido mencoba untuk melindunginya dari masa lalunya misterius. Sedangkan, teman barunya, Hugo justru membantu mendapatkan kembali ingatannya yang hilang. Karena kemampuan jurus Panzer Kunts dan tubuh cyborg-nya yang punya teknologi canggih, Alita jadi incaran. Dia pun berhasil menemukan serpihan ingatan masa lalunya dan ingat misinya untuk membunuh orang di balik kejahatan di kota tersebut. Berhasilkah Alita bertemu dengan orang di balik kejahatan tersebut? Itu saja sinopsis singkat dari Movie Alita.</item>
+        <item>8 tahun setelah kejadian dalam The Dark Knight, Bruce Wayne (Christian Bale) bukanlah pria gagah yang dulu kita kenal. Sekarang tampilannya begitu menyedihkan usai kematian Rachel. Sudah berjalan memakai tongkat, usaha keluarga bangkrut, Wayne juga tak bisa move on atas bertubi penderitaan yang mendera. Di saat bersamaan, Gotham terancam kehancuran setelah kedatangan Bane (Tom Hardy) yang sukses memporak-porandakan kota tersebut. Hampir tak ada celah untuk keadilan. Sayangnya Batman yang diharap selamatkan Gotham malah tergeletak lemah tak berdaya. Kini Gotham harus bertahan sendiri dengan atau tanpa Batman. Masalahnya sekarang adalah, bisakah mereka bertahan dari keadaan kota yang tak bisa diselamatkan lagi?.</item>
+        <item>Di sebuah kota kecil bernama Brightburn, sepasang suami istri menginginkan anugerah buah hati yang tidak kunjung didapat. Sampai suatu hari datang sebuah benda misterius dari langit di hutan dekat rumahnya. Ternyata berupa lifepod yang diisi oleh seorang bocah bayi laki- laki. Merasa ini adalah jawaban dari doa- doa mereka, anak kecil tersebut diadopsi dan diberinama Brandon. Brandon sangat jenius dan dirawat dengan penuh kasing sayang layaknya anak sendiri. Hingga di usia ke-12, dia mengalami masa pubertas dan terjadi perubahan pada dirinya. Dirinya memiliki kekuatan super jauh di atas manusia normal. Dan jati dirinya sebagai seorang alien yang diutus untuk menguasai bumi mulai terkuak.</item>
+        <item>Menceritakan kisah nyata tentang bagaimana Ray Kroc (Michael Keaton), seorang salesman asal Illinois, bertemu dengan Mac dan Dick McDonald, yang menjalankan usaha burger pada tahun 1950an di California Selatan. Kroc terkesan dengan kecepatan dari sepasang saudara ini dalam membuat makanan dan melihat potensial waralaba di dalamnya. Ia mengarahkan dirinya ke dalam posisi yang memungkinkan untuk mengambil alih perusahaan dari dua bersaudara ini dan menciptakan sebuah kerajaan dengan omset miliaran dollar. Kroc terlihat sangat kaget dengan antrian panjang orang-orang di depan restoran. Di dalam McDonald, hamburger dimasak dan disajikan dengan cepat. Ia mulai membuat beberapa rencana untuk mengambil alih McDonald’s dari dua bersaudara ini. Kroc juga memikirkan tentang kota-kota di mana ia dapat membangun restoran waralaba McDonald’s.</item>
+        <item>Hideo Suzuki seorang assisten mangaka, ia pernah membuat sebuah manga tapi gagal di ranah produksi dan percekatan maka dari itu ia menjadi assisten mangaka dengan bayaran yang kecil. Hideo menganggap bahwa dirinya hanyalah seorang karakter pendukung di dunia ini, seorang pecundang yang memiliki harga diri rendah. Hal inilah yang membuatnya frustasi untuk meneruskan hidupnya. Namun nasibnya berbubah ketika virus ZQN yang tidak diketahui darimana asalnya menyerang Jepang. Orang yang terkena virus ZQN akan seperti zombie dan jika seseorang terkena gigitannya ia juga akan menjadi zombie. Saat sedang menyelamatkan diri Hideo bertemu dengan siswi SMA bernama Hiromi Hayakari. Mereka mencoba melarikan diri dari kota tersebut namun tanpa diduga Hiromi terkena gigitan dari bayi yang terkena virus ZQN. Karena bayi tersebut tidak memiliki gigi sekarang Hiromi jadi manusia setengah zombie. Dalam perjalannya mereka mencari balabantuan untuk menyelamatkan Hiromi dan mereka bertemu dengan perawat bernama Yabu. </item>
+        <item>Elise Reinier (Lin Shaye) mendapat telepon dari seseorang yang mengaku mendapatkan gangguan mahluk halus di rumahnya. Ternyata rumah tersebut adalah rumah di mana Elise tumbuh sejak kecil bersama adik dan ayahnya yang kasar dan suka menyiksa. Kali ini Elise mau tidak mau harus menghadapi lagi kekuatan jahat yang sempat membunuh ibunya dan membuat ayahnya gemar menyiksa.</item>
+        <item>Suatu ketika Pemadaman listrik di seluruh dunia terjadi. Segala sesuatu yang membutuhkan listrik berhenti dan tidak bisa berfungsi. Tak hanya peralatan listrik, tetapi juga kereta, mobil, gas, dan sistem air. Tak ada telepon yang bisa digunakan dan tak ada kereta untuk berangkat kerja. Dengan kondisi seperti ini, Kota Tokyo menjadi kacau balau hampir hancur. Karena Tokyo terkenal dengan kecangihan teknologinya yang mengharuskan menggunakan listrik. Tidak terkecuali keluarga Yoshiyuki Suzuki (Fumiyo Kohinata) yang harus menghadapi kondisi krisis ini. Mereka berpikir mereka bisa menghadapinya selama satu hari, hingga hari demi hari pun berganti. Keluarga Yoshiyuki Suzuki akhirnya memutuskan untuk melarikan diri dari Tokyo. Dari sinilah perjuangan Keluarga Yoshiyuki Suzuki dalam bertahan hidup di luar Tokyo diuji. Mampukah Keluarga Yoshiyuki Suzuki untuk bertahan hidup tanpa peralatan elektronik yang sudah mereka biasa pakai?.</item>
+        <item>Menceritakan satu keluarga yang tengah berlibur ke pantai dan menginap di rumah masa kecil sang istri, Adelaide Wilson. Teror pun mulai datang ketika Adelaide makin mengingat masa kecilnya di tempat tersebut. Belum sehari, kebahagiaan keluarga ini berganti menjadi ketakutan saat tamu tak diundang muncul di halaman rumah mereka. Tamu tersebut bagaikan doppelganger dari keluarga tersebut. Bedanya, mereka datang untuk membunuh. Serangan teror dari mereka untuk suatu pergerakan yang besar. Keluarga Wilson harus bisa bertahan hidup dari semua ini.</item>
+        <item>Pokemon detective pikachu menceritakan Hilangnya detektif terkenal, Harry Goodman yang menghilang secara misterius setelah mengalami kecelakaan pada mobil yang ia tumpangi. Tim Goodman yang merupakan anak dari detektif tersebut merasa khawatir atas menghilangnya sang ayah secara misterius. Tim yang berasal dari kota kecil pergi ke Ryme City, sebuah kota metropolitan yang dihuni oleh manusia dan pokemon. Ditengah penyelidikannya, ia bertemu dengan Detective Pikachu. Tak disangka Tim ternyata mengerti perkataan Pikachu dan Pikachu pun merasa1 lega karena selama ini orang-orang hanya mendengar kata pika-pika. Sejak saat itu, Pikachu dan Tim berkerja sama untuk mencari Harry Goodman.</item>
+    </string-array>
+
+    <string-array name="data_tahun">
+        <item>28 Jan 2011</item>
+        <item>14 Feb 2019</item>
+        <item>16 Jul 2012</item>
+        <item>24 May 2019</item>
+        <item>20 Jan 2017</item>
+        <item>13 Oktober 2015</item>
+        <item>5 Jan 2018</item>
+        <item>11 Feb 2017</item>
+        <item>22 Mar 2019</item>
+        <item>10 May 2019</item>
+    </string-array>
+</resources>

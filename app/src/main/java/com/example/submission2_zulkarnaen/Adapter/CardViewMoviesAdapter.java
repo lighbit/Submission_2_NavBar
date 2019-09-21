@@ -27,7 +27,7 @@ public class CardViewMoviesAdapter extends RecyclerView.Adapter<CardViewMoviesAd
         this.context = context;
     }
 
-    public ArrayList<MovieModel> getListMovies() {
+    private ArrayList<MovieModel> getListMovies() {
         return listMovies;
     }
 
@@ -53,6 +53,8 @@ public class CardViewMoviesAdapter extends RecyclerView.Adapter<CardViewMoviesAd
 
         cardViewViewHolder.dataName.setText(tvShow.getName());
         cardViewViewHolder.dataDescription.setText(tvShow.getDescription());
+        cardViewViewHolder.dataGenre.setText(tvShow.getGenre());
+        cardViewViewHolder.dataTahun.setText(tvShow.getTahun());
 
     }
 
@@ -62,7 +64,7 @@ public class CardViewMoviesAdapter extends RecyclerView.Adapter<CardViewMoviesAd
     }
 
     class CardViewViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        TextView dataName, dataDescription;
+        TextView dataName, dataDescription, dataGenre, dataTahun;
         ImageView dataPhoto;
 
         CardViewViewHolder(@NonNull final View itemView) {
@@ -71,6 +73,9 @@ public class CardViewMoviesAdapter extends RecyclerView.Adapter<CardViewMoviesAd
             dataName = itemView.findViewById(R.id.txt_name);
             dataDescription = itemView.findViewById(R.id.txt_description);
             dataPhoto = itemView.findViewById(R.id.img_photo);
+            dataGenre = itemView.findViewById(R.id.txt_genres);
+            dataTahun = itemView.findViewById(R.id.txt_tahun);
+
 
             itemView.setOnClickListener(this);
 
@@ -81,11 +86,12 @@ public class CardViewMoviesAdapter extends RecyclerView.Adapter<CardViewMoviesAd
             int position = getAdapterPosition();
             MovieModel tvShow = getListMovies().get(position);
 
-            tvShow.setName(tvShow.getName());
-            tvShow.setSinopsis(tvShow.getSinopsis());
+            // TODO: EXTRA
+            tvShow.setActionBarMark("1");
 
             Intent moveWithObjectIntent = new Intent(itemView.getContext(), MoveWithObjectActivity.class);
             moveWithObjectIntent.putExtra(MoveWithObjectActivity.EXTRA_MOVIE, tvShow);
+            moveWithObjectIntent.putExtra(MoveWithObjectActivity.EXTRA_DATA, "1");
             context.startActivity(moveWithObjectIntent);
         }
     }

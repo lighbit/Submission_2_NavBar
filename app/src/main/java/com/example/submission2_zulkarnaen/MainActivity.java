@@ -42,12 +42,14 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.nav_host_fragment, fragment, fragment.getClass().getSimpleName())
                             .commit();
+                    getSupportActionBar().setTitle(R.string.app_name_movie);
                     return true;
                 case R.id.navigation_dashboard:
                     fragment = new TvShowFragment();
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.nav_host_fragment, fragment, fragment.getClass().getSimpleName())
                             .commit();
+                   getSupportActionBar().setTitle(R.string.app_name_tvshow);
                     return true;
             }
             return false;

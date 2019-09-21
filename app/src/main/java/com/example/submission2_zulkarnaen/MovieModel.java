@@ -12,6 +12,7 @@ public class MovieModel implements Parcelable {
     private String sinopsis;
     private String genre;
     private String tahun;
+    private String actionBarMark;
 
     public int getPhoto() {
         return photo;
@@ -61,6 +62,13 @@ public class MovieModel implements Parcelable {
         this.tahun = tahun;
     }
 
+    public String getActionBarMark() {
+        return actionBarMark;
+    }
+
+    public void setActionBarMark(String actionBarMark) {
+        this.actionBarMark = actionBarMark;
+    }
 
     @Override
     public int describeContents() {

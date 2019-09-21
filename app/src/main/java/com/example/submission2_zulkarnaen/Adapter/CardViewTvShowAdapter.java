@@ -54,6 +54,8 @@ public class CardViewTvShowAdapter extends RecyclerView.Adapter<CardViewTvShowAd
 
         cardViewViewHolder.dataName.setText(tvShow.getName());
         cardViewViewHolder.dataDescription.setText(tvShow.getDescription());
+        cardViewViewHolder.dataGenre.setText(tvShow.getGenre());
+        cardViewViewHolder.dataTahun.setText(tvShow.getTahun());
     }
 
     @Override
@@ -62,7 +64,7 @@ public class CardViewTvShowAdapter extends RecyclerView.Adapter<CardViewTvShowAd
     }
 
     class CardViewViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        TextView dataName, dataDescription, sinopsis, tahun;
+        TextView dataName, dataDescription, dataGenre, dataTahun;
         ImageView dataPhoto;
 
         CardViewViewHolder(@NonNull final View itemView) {
@@ -71,6 +73,8 @@ public class CardViewTvShowAdapter extends RecyclerView.Adapter<CardViewTvShowAd
             dataName = itemView.findViewById(R.id.txt_name);
             dataDescription = itemView.findViewById(R.id.txt_description);
             dataPhoto = itemView.findViewById(R.id.img_photo);
+            dataGenre = itemView.findViewById(R.id.txt_genres);
+            dataTahun = itemView.findViewById(R.id.txt_tahun);
 
             itemView.setOnClickListener(this);
 

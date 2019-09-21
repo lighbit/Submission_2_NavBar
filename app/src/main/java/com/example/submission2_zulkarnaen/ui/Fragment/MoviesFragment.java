@@ -26,7 +26,6 @@ public class MoviesFragment extends Fragment {
     private String[] sinopsis;
     private String[] tahun;
     private String[] genre;
-    private ArrayList<MovieModel> movieModelArrayList;
 
 
     public MoviesFragment() {
@@ -68,7 +67,7 @@ public class MoviesFragment extends Fragment {
 
         prepare();
 
-        movieModelArrayList = new ArrayList<>();
+        ArrayList<MovieModel> movieModelArrayList = new ArrayList<>();
         for (int i = 0; i < dataName.length; i++) {
             MovieModel movieModel = new MovieModel();
             movieModel.setPhoto(dataPhoto.getResourceId(i, -1));

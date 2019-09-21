@@ -15,19 +15,17 @@ import com.example.submission2_zulkarnaen.MovieModel;
 import com.example.submission2_zulkarnaen.R;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 public class TvShowFragment extends Fragment {
 
     private RecyclerView rvTvShow;
-    private ArrayList list = new ArrayList<>();
+    private ArrayList<MovieModel> list = new ArrayList<>();
     private String[] dataName;
     private String[] dataDescription;
     private TypedArray dataPhoto;
     private String[] sinopsis;
     private String[] tahun;
     private String[] genre;
-    private ArrayList<MovieModel> movieModelArrayList;
 
 
     public TvShowFragment() {
@@ -55,12 +53,12 @@ public class TvShowFragment extends Fragment {
     }
 
     private void prepare() {
-        dataName = getResources().getStringArray(R.array.data_name);
-        dataDescription = getResources().getStringArray(R.array.data_description);
-        sinopsis = getResources().getStringArray(R.array.data_sinopsis);
-        tahun = getResources().getStringArray(R.array.data_tahun);
-        dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
-        genre = getResources().getStringArray(R.array.data_genre);
+        dataName = getResources().getStringArray(R.array.data_name_tv);
+        dataDescription = getResources().getStringArray(R.array.data_description_tv);
+        sinopsis = getResources().getStringArray(R.array.data_sinopsis_tv);
+        tahun = getResources().getStringArray(R.array.data_tahun_tv);
+        dataPhoto = getResources().obtainTypedArray(R.array.data_photo_tv);
+        genre = getResources().getStringArray(R.array.data_genre_tv);
     }
 
 
@@ -68,7 +66,7 @@ public class TvShowFragment extends Fragment {
 
         prepare();
 
-        movieModelArrayList = new ArrayList<>();
+        ArrayList<MovieModel> movieModelArrayList = new ArrayList<>();
         for (int i = 0; i < dataName.length; i++) {
             MovieModel movieModel = new MovieModel();
             movieModel.setPhoto(dataPhoto.getResourceId(i, -1));

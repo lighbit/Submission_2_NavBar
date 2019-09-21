@@ -21,10 +21,10 @@
     <string name="tahun">Release:</string>
     <string name="tahun_2">Release:</string>
     <string name="todo_photo">TODO Photo</string>
-    <string name="tahun_pembuatan">Tahun Pembuatan</string>
+    <string name="tahun_pembuatan">years Making</string>
     <string name="genres">Genre</string>
     <string name="deskripsi">Description</string>
-    <string name="pembatas">Garis pembatas</string>
+    <string name="pembatas">Line Break</string>
     <array name="data_photo">
 
 
